@@ -1,0 +1,13 @@
+class student:
+  def.addit
+class sample:
+   def__int__(self:name,age):
+   self,name=name
+   self,age=age
+def read(self):
+  print(sef,name)
+  print(self,age)
+s1=Sample("kprit",20)
+s1.read()
+s2=Sample("abc",21)
+s2.read()

@@ -1,0 +1,6 @@
+class student:
+  name = "KPRIT"
+  age = 15
+ print(age)
+ print("reading")
+def write(self)
