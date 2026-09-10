@@ -1,0 +1,16 @@
+class Father:
+    def demo(self):
+        print("parent father")
+
+class Mother:
+    def sample(self):
+        print("parent mother")
+
+children(Father, Mother):
+    def example(self):
+        print("children")
+
+child = children()
+child.demo()
+child.sample()
+child.example()

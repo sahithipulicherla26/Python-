@@ -1,0 +1,9 @@
+class Student:
+    def display(self):
+        print("Hello, I am a student")
+
+# Creating object
+s1 = Student()
+
+# Calling method
+s1.display()
