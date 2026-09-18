@@ -1,0 +1,11 @@
+class Employee:
+    employeeid = 43563
+    name = input("Name")
+    salary = 65000
+    def totalsalary(self):
+        HRA = ((0.2)*60000)
+        DA = ((0.1)*6000)
+        totalsalary = 6000+HRA+DA
+        print("tolalsalary:",totalsalary)
+e=Employee()
+e.totalsalary()
