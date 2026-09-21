@@ -1,0 +1,21 @@
+class vehicle:
+    def display(self):
+        print("veichle details")
+        
+class car(vehicle):
+    def brand(self):
+        print("car brand")
+        
+class bike(vehicle):
+    def model(self):
+        print("bike model")
+
+v = vehicle()
+c = car()
+b = bike()
+
+v.display()
+c.display()
+c.brand()
+b.display()
+b.model()
